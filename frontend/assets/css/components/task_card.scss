@@ -1,0 +1,14 @@
+
+.tasks-container {
+  @apply flex flex-col items-center;
+  min-height: 500px;
+  .task-card {
+    min-height: 150px;
+    width: 250px;
+    @apply bg-gray-200 mb-3 p-2 cursor-pointer bg-white text-gray-800 border-2 border-gray-500 outline-none;
+
+    .task-title {
+      @apply text-lg mb-5 font-semibold;
+    }
+  }
+}
