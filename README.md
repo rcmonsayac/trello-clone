@@ -1,4 +1,15 @@
 # trello-clone
+A simple app that mimics Trello
+ - Frontend
+    - Built with Elixir, Phoenix, LiveView, and Tailwind CSS
+    - With login and register
+    - Board management, with lists and tasks
+    - Implements sorting of lists and tasks through JS hooks using Sortable.js
+  - Backend
+    - Postgres database
+    - Authentication using Guardian
+    - Authorization using PolicyWonk
+
 demo: 
 
 
